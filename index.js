@@ -624,4 +624,4 @@ app.get('/editarBloco/:id', (req, res) => {
 });
 
 module.exports = app;
-});
+
