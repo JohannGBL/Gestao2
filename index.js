@@ -623,6 +623,5 @@ app.get('/editarBloco/:id', (req, res) => {
     });
 });
 
-app.listen(3001, () => {
-    console.log('Servidor rodando na porta http://localhost:3001');
+module.exports = app;
 });
